@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\BattleRoyal.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{814C179D-23DA-470D-9449-5E47ECF949B7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BattleRoyal.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BattleRoyalEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{2EEE00C3-BD5D-467D-8E0F-1FBEA25108DC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\BattleRoyal">
+			<UniqueIdentifier>{2E6DF4B5-6DBE-4467-9A6D-C236D4E0BF07}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BattleRoyal\BattleRoyal.Build.cs">
+			<Filter>Source\BattleRoyal</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BattleRoyal\BattleRoyal.cpp">
+			<Filter>Source\BattleRoyal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleRoyal\BattleRoyal.h">
+			<Filter>Source\BattleRoyal</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BattleRoyal\BattleRoyalCharacter.cpp">
+			<Filter>Source\BattleRoyal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleRoyal\BattleRoyalCharacter.h">
+			<Filter>Source\BattleRoyal</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BattleRoyal\BattleRoyalGameMode.cpp">
+			<Filter>Source\BattleRoyal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleRoyal\BattleRoyalGameMode.h">
+			<Filter>Source\BattleRoyal</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

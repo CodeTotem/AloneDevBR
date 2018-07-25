@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BattleRoyal.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\GitHub\BattleRoyal\Intermediate\Build\Win64\UE4Editor\Development\BattleRoyal\BattleRoyal.cpp.obj"
+"D:\GitHub\BattleRoyal\Intermediate\Build\Win64\UE4Editor\Development\BattleRoyal\BattleRoyalCharacter.cpp.obj"
+"D:\GitHub\BattleRoyal\Intermediate\Build\Win64\UE4Editor\Development\BattleRoyal\BattleRoyalGameMode.cpp.obj"
+"D:\GitHub\BattleRoyal\Intermediate\Build\Win64\UE4Editor\Development\BattleRoyal\BattleRoyal.init.gen.cpp.obj"
+"D:\GitHub\BattleRoyal\Intermediate\Build\Win64\UE4Editor\Development\BattleRoyal\BattleRoyalCharacter.gen.cpp.obj"
+"D:\GitHub\BattleRoyal\Intermediate\Build\Win64\UE4Editor\Development\BattleRoyal\BattleRoyalGameMode.gen.cpp.obj"
+"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\BattleRoyal\PCLaunch.rc.res"
+"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\GitHub\BattleRoyal\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BattleRoyal.lib"
