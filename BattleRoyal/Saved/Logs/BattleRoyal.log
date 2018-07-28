@@ -1,4 +1,4 @@
-﻿Log file open, 07/27/18 13:19:48
+﻿Log file open, 07/28/18 17:39:12
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BattleRoyal
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-84052146) SRandInit(-84052146).
+LogInit: Display: RandInit(-1034150532) SRandInit(-1034150532).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 3.708534
+LogStats: Stats thread started at 0.317616
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -193,226 +193,991 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: F:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.27-04.19.52:189][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.27-04.19.52:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.27-04.19.52:278][  0]LogInit: Computer: KDH-PC
-[2018.07.27-04.19.52:278][  0]LogInit: User: elfix89
-[2018.07.27-04.19.52:278][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.07.27-04.19.52:278][  0]LogInit: High frequency timer resolution =3.507578 MHz
-[2018.07.27-04.19.52:278][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.07.27-04.19.52:278][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.27-04.19.52:278][  0]LogMemory: Process Physical Memory: 276.23 MB used, 276.23 MB peak
-[2018.07.27-04.19.52:278][  0]LogMemory: Process Virtual Memory: 275.43 MB used, 275.43 MB peak
-[2018.07.27-04.19.52:278][  0]LogMemory: Physical Memory: 8475.19 MB used,  7860.03 MB free, 16335.22 MB total
-[2018.07.27-04.19.52:278][  0]LogMemory: Virtual Memory: 631.36 MB used,  7860.03 MB free, 8388608.00 MB total
-[2018.07.27-04.19.52:941][  0]LogInit: Using OS detected language (ko-KR).
-[2018.07.27-04.19.52:941][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.07.27-04.19.53:089][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.07.27-04.19.53:415][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.07.27-04.19.53:415][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.07.27-04.19.53:415][  0]LogInit: Setting process to DPI aware
-[2018.07.27-04.19.53:513][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.07.27-04.19.53:513][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.07.27-04.19.53:513][  0]LogInit: Setting process to DPI aware
-[2018.07.27-04.19.54:536][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.27-04.19.54:585][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
-[2018.07.27-04.19.54:585][  0]LogD3D11RHI:       1984/0/7911 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.07.27-04.19.54:585][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.27-04.19.54:592][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.27-04.19.54:592][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.27-04.19.54:592][  0]LogWindows: EnumDisplayDevices:
-[2018.07.27-04.19.54:593][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
-[2018.07.27-04.19.54:593][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
-[2018.07.27-04.19.54:594][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2018.07.27-04.19.54:595][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
-[2018.07.27-04.19.54:595][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.07.27-04.19.54:596][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.07.27-04.19.54:596][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
-[2018.07.27-04.19.54:596][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
-[2018.07.27-04.19.54:596][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
-[2018.07.27-04.19.54:596][  0]LogD3D11RHI:      Driver Date: 3-23-2018
-[2018.07.27-04.19.54:596][  0]LogRHI: Texture pool is 1388 MB (70% of 1984 MB)
-[2018.07.27-04.19.54:647][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.27-04.19.54:894][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
-[2018.07.27-04.19.54:985][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../GitHub/AloneDevBR/BattleRoyal/Intermediate/Shaders/WorkingDirectory/13948/).
-[2018.07.27-04.19.54:985][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/elfix89/AppData/Local/Temp/UnrealShaderWorkingDir/CD2E8789413218EAA8B356BF3CEFEDDA/'.
-[2018.07.27-04.19.54:988][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.27-04.19.56:978][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.27-04.19.57:022][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.27-04.19.57:067][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.27-04.19.57:113][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.27-04.19.57:174][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.27-04.19.57:218][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.27-04.19.57:263][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.27-04.19.57:308][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.27-04.19.57:347][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.27-04.19.57:411][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.27-04.19.57:456][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.27-04.19.57:501][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.27-04.19.57:547][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.27-04.19.57:592][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.27-04.19.57:682][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.27-04.19.57:682][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.27-04.19.57:738][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.27-04.19.57:772][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.27-04.19.57:895][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.27-04.19.57:914][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.27-04.19.57:961][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.27-04.19.58:006][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.27-04.19.58:052][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.27-04.19.58:098][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.27-04.19.58:098][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.27-04.19.59:018][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.27-04.19.59:240][  0]LogDerivedDataCache: Loaded boot cache 0.22s 75MB C:/Users/elfix89/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.07.27-04.19.59:241][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/elfix89/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.07.27-04.19.59:241][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/AloneDevBR/BattleRoyal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.27-04.19.59:241][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.27-04.19.59:241][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/AloneDevBR/BattleRoyal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.27-04.19.59:241][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.27-04.19.59:312][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.27-04.19.59:326][  0]LogDerivedDataCache: Using Local data cache path C:/Users/elfix89/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.27-04.19.59:399][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.27-04.19.59:477][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.27-04.19.59:575][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.27-04.19.59:587][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.27-04.20.04:504][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.27-04.20.05:836][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.27-04.20.05:889][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.27-04.20.05:890][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.27-04.20.05:890][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.27-04.20.05:890][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.27-04.20.05:890][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.27-04.20.06:297][  0]LogNetVersion: BattleRoyal , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2100071023)
-[2018.07.27-04.20.07:327][  0]LogAssetRegistry: FAssetRegistry took 0.0377 seconds to start up
-[2018.07.27-04.20.13:069][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.118042 seconds
-[2018.07.27-04.20.13:090][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.07.27-04.20.13:090][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.07.27-04.20.13:090][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.27-04.20.13:131][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.07.27-04.20.22:486][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.27-04.20.22:549][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.27-04.20.24:817][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.07.27-04.20.25:581][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.07.27-04.20.25:581][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.07.27-04.20.25:716][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.07.27-04.20.25:838][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.07.27-04.20.27:134][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.27-04.20.27:484][  0]LogOcInput: OculusInput pre-init called
-[2018.07.27-04.20.28:074][  0]LogEngine: Initializing Engine...
-[2018.07.27-04.20.28:112][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.27-04.20.28:564][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.27-04.20.28:564][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.27-04.20.28:906][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.27-04.20.29:061][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.27-04.20.29:084][  0]LogInit: FAudioDevice initialized.
-[2018.07.27-04.20.29:163][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/elfix89/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.07.27-04.20.29:176][  0]LogInit: Texture streaming: Enabled
-[2018.07.27-04.20.29:283][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.27-04.20.29:464][  0]LogInit: Transaction tracking system initialized
-[2018.07.27-04.20.29:945][  0]BlueprintLog: New page: 에디터 로드
-[2018.07.27-04.20.31:487][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.07.27-04.20.32:711][  0]LogConsoleResponse: Display: 
-[2018.07.27-04.20.34:562][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub/AloneDevBR/BattleRoyal/Content/' took 0.01s
-[2018.07.27-04.20.34:562][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.27-04.20.34:562][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.27-04.20.34:574][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.27-04.20.37:295][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.07.27-04.20.37:343][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.27-04.20.37:349][  0]LightingResults: New page: 라이팅 빌드
-[2018.07.27-04.20.37:533][  0]MapCheck: New page: 맵 체크
-[2018.07.27-04.20.37:533][  0]LightingResults: New page: 라이팅 빌드
-[2018.07.27-04.20.38:334][  0]LogAIModule: Creating AISystem for world Jungle
-[2018.07.27-04.20.39:978][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.27-04.20.40:076][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.27-04.20.40:143][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 66.519ms.
-[2018.07.27-04.20.40:143][  0]LogFileHelpers: Loading map 'Jungle' took 2.816
-[2018.07.27-04.20.41:114][  0]LogCollectionManager: Loaded 0 collections in 0.001341 seconds
-[2018.07.27-04.20.41:259][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub/AloneDevBR/BattleRoyal/Saved/Collections/' took 0.01s
-[2018.07.27-04.20.41:259][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub/AloneDevBR/BattleRoyal/Content/Developers/elfix89/Collections/' took 0.01s
-[2018.07.27-04.20.41:259][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub/AloneDevBR/BattleRoyal/Content/Collections/' took 0.01s
-[2018.07.27-04.20.41:259][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.07.27-04.20.41:284][  0]LogContentBrowser: Native class hierarchy populated in 0.0236 seconds. Added 2365 classes and 521 folders.
-[2018.07.27-04.20.41:355][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.07.27-04.20.42:310][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.07.27-04.20.42:402][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.07.27-04.20.43:880][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.07.27-04.20.45:302][  0]LogSlate: Took 0.011944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.27-04.20.45:385][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleRoyal
-[2018.07.27-04.20.45:385][  0]LogTemp: CWD: F:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.07.27-04.20.45:385][  0]LogTemp: Initial Dir: F:\Program Files\Epic Games\UE_4.18
-[2018.07.27-04.20.45:385][  0]LogTemp: Env CWD: F:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.07.27-04.20.45:385][  0]LogTemp: BranchPath = KDH-PC/F/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = KDH-PC/F/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.07.27-04.20.45:385][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\elfix89\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.07.27-04.20.45:385][  0]LogSlate: Took 0.082292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.07.27-04.20.45:426][  0]LogSlate: Took 0.017474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.27-04.20.45:469][  0]LogSlate: Took 0.020652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.27-04.20.45:873][  0]LogRenderer: Reallocating scene render targets to support 1016x652 Format 10 NumSamples 1 (Frame:1).
-[2018.07.27-04.20.46:362][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.07.27-04.20.46:362][  0]LogLoad: (Engine Initialization) Total time: 70.63 seconds
-[2018.07.27-04.20.46:362][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.27-04.20.46:363][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.07.27-04.20.46:789][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.27-04.20.46:968][  0]LogSlate: Took 0.018543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.07.27-04.20.47:082][  1]LogAssetRegistry: Asset discovery search completed in 39.7724 seconds
-[2018.07.27-04.20.47:094][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.07.27-04.20.47:094][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
-[2018.07.27-04.22.50:426][789]LogEditorActor: Deleted Actor: Landscape
-[2018.07.27-04.22.50:460][789]LogEditorActor: Deleted Actor: Landscape
-[2018.07.27-04.22.50:480][789]LogEditorActor: Deleted Actor: Landscape
-[2018.07.27-04.22.50:502][789]LogEditorActor: Deleted 3 Actors (0.147 secs)
-[2018.07.27-04.22.53:810][181]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
-[2018.07.27-04.22.53:820][181]LogEditorActor: Deleted 1 Actors (0.012 secs)
-[2018.07.27-04.23.09:659][905]LogTexture: Display: 텍스처 빌드: Texture2D_2 (G8, 128X128)
-[2018.07.27-04.26.23:813][903]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.07.27-04.26.23:888][903]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 512X512)
-[2018.07.27-04.26.33:388][986]LogRenderer: Reallocating scene render targets to support 1028x652 Format 10 NumSamples 1 (Frame:6208).
-[2018.07.27-04.26.33:425][987]LogRenderer: Reallocating scene render targets to support 1072x652 Format 10 NumSamples 1 (Frame:6210).
-[2018.07.27-04.26.33:461][988]LogRenderer: Reallocating scene render targets to support 1080x652 Format 10 NumSamples 1 (Frame:6212).
-[2018.07.27-04.26.33:498][989]LogRenderer: Reallocating scene render targets to support 1100x652 Format 10 NumSamples 1 (Frame:6214).
-[2018.07.27-04.26.33:536][990]LogRenderer: Reallocating scene render targets to support 1112x652 Format 10 NumSamples 1 (Frame:6216).
-[2018.07.27-04.26.33:586][991]LogRenderer: Reallocating scene render targets to support 1128x652 Format 10 NumSamples 1 (Frame:6218).
-[2018.07.27-04.26.33:623][992]LogRenderer: Reallocating scene render targets to support 1136x652 Format 10 NumSamples 1 (Frame:6220).
-[2018.07.27-04.26.33:673][993]LogRenderer: Reallocating scene render targets to support 1140x652 Format 10 NumSamples 1 (Frame:6222).
-[2018.07.27-04.26.33:710][994]LogRenderer: Reallocating scene render targets to support 1148x652 Format 10 NumSamples 1 (Frame:6224).
-[2018.07.27-04.26.33:752][995]LogRenderer: Reallocating scene render targets to support 1156x652 Format 10 NumSamples 1 (Frame:6226).
-[2018.07.27-04.26.33:796][996]LogRenderer: Reallocating scene render targets to support 1160x652 Format 10 NumSamples 1 (Frame:6228).
-[2018.07.27-04.26.33:848][998]LogRenderer: Reallocating scene render targets to support 1164x652 Format 10 NumSamples 1 (Frame:6230).
-[2018.07.27-04.26.33:885][999]LogRenderer: Reallocating scene render targets to support 1168x652 Format 10 NumSamples 1 (Frame:6232).
-[2018.07.27-04.26.33:922][  0]LogRenderer: Reallocating scene render targets to support 1172x652 Format 10 NumSamples 1 (Frame:6234).
-[2018.07.27-04.26.33:973][  1]LogRenderer: Reallocating scene render targets to support 1180x652 Format 10 NumSamples 1 (Frame:6236).
-[2018.07.27-04.26.34:010][  2]LogRenderer: Reallocating scene render targets to support 1196x652 Format 10 NumSamples 1 (Frame:6238).
-[2018.07.27-04.26.34:070][  5]LogRenderer: Reallocating scene render targets to support 1200x652 Format 10 NumSamples 1 (Frame:6240).
-[2018.07.27-04.26.34:118][  6]LogRenderer: Reallocating scene render targets to support 1204x652 Format 10 NumSamples 1 (Frame:6242).
-[2018.07.27-04.26.34:216][ 11]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:6246).
-[2018.07.27-04.26.34:253][ 12]LogRenderer: Reallocating scene render targets to support 1212x652 Format 10 NumSamples 1 (Frame:6248).
-[2018.07.27-04.26.34:290][ 13]LogRenderer: Reallocating scene render targets to support 1216x652 Format 10 NumSamples 1 (Frame:6250).
-[2018.07.27-04.26.34:326][ 14]LogRenderer: Reallocating scene render targets to support 1220x652 Format 10 NumSamples 1 (Frame:6252).
-[2018.07.27-04.26.34:448][ 22]LogRenderer: Reallocating scene render targets to support 1224x652 Format 10 NumSamples 1 (Frame:6256).
-[2018.07.27-04.30.37:668][497]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.07.27-04.30.46:680][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jungle" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.07.27-04.30.46:956][524]LogSavePackage: Save=243.19ms
-[2018.07.27-04.30.46:956][524]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Jungle_Auto17DBDE2D349AB58893699D6B4F5F5E4B3.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto1.umap'
-[2018.07.27-04.30.46:965][524]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto1.umap
-[2018.07.27-04.30.46:984][524]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Jungle' took 0.342
-[2018.07.27-04.30.46:984][524]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.342
-[2018.07.27-04.40.37:584][177]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
-[2018.07.27-04.46.06:789][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jungle" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.07.27-04.46.06:865][523]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 512X512)
-[2018.07.27-04.46.07:216][523]LogSavePackage: Save=390.52ms
-[2018.07.27-04.46.07:216][523]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Jungle_Auto2802264184EDF4F7FA89F24B7C65524A2.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto2.umap'
-[2018.07.27-04.46.07:217][523]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto2.umap
-[2018.07.27-04.46.07:220][523]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Jungle' took 0.439
-[2018.07.27-04.46.07:220][523]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.439
-[2018.07.27-04.50.09:522][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jungle" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.07.27-04.50.09:591][540]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 512X512)
-[2018.07.27-04.50.09:926][540]LogSavePackage: Save=391.76ms
-[2018.07.27-04.50.09:926][540]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Jungle20FCE06746006FB9BB2200A94B5B801A.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle.umap'
-[2018.07.27-04.50.09:940][540]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle.umap
-[2018.07.27-04.50.09:965][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jungle_BuiltData" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle_BuiltData.uasset" SILENT=true
-[2018.07.27-04.50.09:974][540]LogSavePackage: Save=3.03ms
-[2018.07.27-04.50.09:974][540]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Jungle_BuiltData80E3A7A147806845DA631AA1276AEEB3.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle_BuiltData.uasset'
-[2018.07.27-04.50.09:975][540]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle_BuiltData.uasset
+[2018.07.28-08.39.18:658][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.28-08.39.18:658][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.28-08.39.18:802][  0]LogInit: Computer: DESKTOP-89TDBB8
+[2018.07.28-08.39.18:802][  0]LogInit: User: Rodun
+[2018.07.28-08.39.18:802][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.28-08.39.18:802][  0]LogInit: High frequency timer resolution =3.312643 MHz
+[2018.07.28-08.39.18:808][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.28-08.39.18:808][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.28-08.39.18:808][  0]LogMemory: Process Physical Memory: 273.30 MB used, 273.30 MB peak
+[2018.07.28-08.39.18:808][  0]LogMemory: Process Virtual Memory: 271.84 MB used, 271.84 MB peak
+[2018.07.28-08.39.18:808][  0]LogMemory: Physical Memory: 7544.69 MB used,  8758.25 MB free, 16302.94 MB total
+[2018.07.28-08.39.18:808][  0]LogMemory: Virtual Memory: 4775.67 MB used,  8758.25 MB free, 134217728.00 MB total
+[2018.07.28-08.39.19:860][  0]LogInit: Using OS detected language (ko-KR).
+[2018.07.28-08.39.19:860][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.07.28-08.39.20:175][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.07.28-08.39.20:686][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.28-08.39.24:662][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.28-08.39.24:728][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2018.07.28-08.39.24:728][  0]LogD3D11RHI:       4053/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.07.28-08.39.24:731][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.28-08.39.24:731][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.28-08.39.24:731][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.28-08.39.24:773][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.28-08.39.24:773][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.28-08.39.24:773][  0]LogWindows: EnumDisplayDevices:
+[2018.07.28-08.39.24:774][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2018.07.28-08.39.24:786][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2018.07.28-08.39.24:787][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.07.28-08.39.24:787][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.07.28-08.39.24:788][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.28-08.39.24:788][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2018.07.28-08.39.24:788][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.28-08.39.24:788][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.28-08.39.24:788][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2018.07.28-08.39.24:827][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.28-08.39.25:287][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.28-08.39.25:447][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../GitHub/AloneDevBR/BattleRoyal/Intermediate/Shaders/WorkingDirectory/141816/).
+[2018.07.28-08.39.25:447][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rodun/AppData/Local/Temp/UnrealShaderWorkingDir/1975C2A24B8C403690119AB0CD4F5325/'.
+[2018.07.28-08.39.25:455][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.28-08.39.30:869][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.28-08.39.30:959][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.28-08.39.31:011][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.28-08.39.31:061][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.28-08.39.31:139][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.28-08.39.31:192][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.28-08.39.31:236][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.28-08.39.31:280][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.28-08.39.31:320][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.28-08.39.31:363][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.28-08.39.31:407][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.28-08.39.31:488][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.28-08.39.31:538][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.28-08.39.31:588][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.28-08.39.31:695][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.28-08.39.31:695][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.28-08.39.31:760][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-08.39.31:793][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.28-08.39.32:023][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.28-08.39.32:050][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.28-08.39.32:097][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.28-08.39.32:142][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.28-08.39.32:186][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.28-08.39.32:238][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.28-08.39.32:238][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.28-08.39.33:736][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.28-08.39.34:175][  0]LogDerivedDataCache: Loaded boot cache 0.44s 75MB C:/Users/Rodun/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.07.28-08.39.34:176][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Rodun/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.07.28-08.39.34:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/AloneDevBR/BattleRoyal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.28-08.39.34:176][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.28-08.39.34:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/AloneDevBR/BattleRoyal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.28-08.39.34:176][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.28-08.39.34:273][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.28-08.39.34:286][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rodun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.28-08.39.34:377][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.28-08.39.34:476][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.28-08.39.34:655][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.28-08.39.34:671][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.28-08.39.47:112][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.28-08.39.49:453][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.28-08.39.49:520][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.28-08.39.49:532][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.28-08.39.49:533][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.28-08.39.49:533][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.28-08.39.49:533][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.28-08.39.50:338][  0]LogNetVersion: BattleRoyal , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2100071023)
+[2018.07.28-08.39.52:382][  0]LogAssetRegistry: FAssetRegistry took 0.0471 seconds to start up
+[2018.07.28-08.40.03:408][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.280432 seconds
+[2018.07.28-08.40.03:471][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.07.28-08.40.03:471][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.07.28-08.40.03:471][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.28-08.40.03:563][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.07.28-08.40.28:696][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.28-08.40.28:787][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.28-08.40.32:841][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.07.28-08.40.33:865][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.28-08.40.33:865][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.28-08.40.33:999][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.28-08.40.34:096][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.28-08.40.35:905][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.28-08.40.36:339][  0]LogOcInput: OculusInput pre-init called
+[2018.07.28-08.40.37:360][  0]LogEngine: Initializing Engine...
+[2018.07.28-08.40.37:466][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.28-08.40.37:870][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.28-08.40.37:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2018.07.28-08.40.38:640][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.28-08.40.39:017][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-08.40.39:174][  0]LogInit: FAudioDevice initialized.
+[2018.07.28-08.40.39:290][  0]LogDerivedDataCache: Saved boot cache 0.09s 75MB C:/Users/Rodun/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.07.28-08.40.39:319][  0]LogInit: Texture streaming: Enabled
+[2018.07.28-08.40.39:565][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.28-08.40.39:991][  0]LogInit: Transaction tracking system initialized
+[2018.07.28-08.40.40:792][  0]BlueprintLog: New page: 에디터 로드
+[2018.07.28-08.40.43:506][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.07.28-08.40.45:018][  0]LogConsoleResponse: Display: 
+[2018.07.28-08.40.46:693][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/AloneDevBR/BattleRoyal/Content/' took 0.04s
+[2018.07.28-08.40.46:693][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.28-08.40.46:712][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.28-08.40.46:736][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.28-08.40.50:678][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.28-08.40.50:712][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.28-08.40.50:714][  0]LightingResults: New page: 라이팅 빌드
+[2018.07.28-08.40.51:001][  0]MapCheck: New page: 맵 체크
+[2018.07.28-08.40.51:001][  0]LightingResults: New page: 라이팅 빌드
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: T_Sand_N (BC5, 1024X1024)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: T_Leaf_N (BC5, 1024X1024)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: T_Gravel_N (BC5, 1024X1024)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: T_Gravel_D_R (AutoDXT, 1024X1024)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: T_Leaf_D_R (AutoDXT, 1024X1024)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: T_Sand_D_R (AutoDXT, 1024X1024)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 512X512)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_10 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_11 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_12 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: T_Grass_N (BC5, 1024X1024)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_13 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_14 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_15 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_16 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_17 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_18 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_19 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_20 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_21 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_22 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_23 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_24 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_25 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_26 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_5 (BGRA8, 64X64)
+[2018.07.28-08.40.54:188][  0]LogTexture: Display: 텍스처 빌드: Texture2D_6 (BGRA8, 64X64)
+[2018.07.28-08.40.54:189][  0]LogTexture: Display: 텍스처 빌드: Texture2D_7 (BGRA8, 64X64)
+[2018.07.28-08.40.54:189][  0]LogTexture: Display: 텍스처 빌드: Texture2D_8 (BGRA8, 64X64)
+[2018.07.28-08.40.54:189][  0]LogTexture: Display: 텍스처 빌드: Texture2D_9 (BGRA8, 64X64)
+[2018.07.28-08.40.54:189][  0]LogTexture: Display: 텍스처 빌드: T_Grass_D (AutoDXT, 1024X1024)
+[2018.07.28-08.40.54:660][  0]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.40.54:846][  0]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.40.54:967][  0]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.40.55:063][  0]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.40.55:154][  0]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.40.55:239][  0]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.40.55:439][  0]LogAIModule: Creating AISystem for world Jungle
+[2018.07.28-08.40.56:858][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.28-08.40.57:108][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.28-08.40.57:255][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 127.662ms.
+[2018.07.28-08.40.57:256][  0]LogFileHelpers: Loading map 'Jungle' took 6.547
+[2018.07.28-08.41.00:032][  0]LogCollectionManager: Loaded 0 collections in 0.001668 seconds
+[2018.07.28-08.41.00:297][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/AloneDevBR/BattleRoyal/Saved/Collections/' took 0.01s
+[2018.07.28-08.41.00:297][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/AloneDevBR/BattleRoyal/Content/Developers/Rodun/Collections/' took 0.01s
+[2018.07.28-08.41.00:297][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/AloneDevBR/BattleRoyal/Content/Collections/' took 0.01s
+[2018.07.28-08.41.00:297][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.28-08.41.00:366][  0]LogContentBrowser: Native class hierarchy populated in 0.0543 seconds. Added 2365 classes and 521 folders.
+[2018.07.28-08.41.00:632][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2018.07.28-08.41.02:211][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.07.28-08.41.02:407][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.07.28-08.41.04:817][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.28-08.41.07:431][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleRoyal
+[2018.07.28-08.41.07:431][  0]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.07.28-08.41.07:431][  0]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.18
+[2018.07.28-08.41.07:431][  0]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.07.28-08.41.07:431][  0]LogTemp: BranchPath = DESKTOP-89TDBB8/D/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-89TDBB8/D/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.07.28-08.41.07:432][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Rodun\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.28-08.41.07:432][  0]LogSlate: Took 0.013277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.28-08.41.07:579][  0]LogSlate: Took 0.114300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.07.28-08.41.07:615][  0]LogSlate: Took 0.016517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.28-08.41.07:768][  0]LogSlate: Took 0.036510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.28-08.41.08:688][  0]LogRenderer: Reallocating scene render targets to support 1616x604 Format 10 NumSamples 1 (Frame:1).
+[2018.07.28-08.41.09:797][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.07.28-08.41.09:798][  0]LogLoad: (Engine Initialization) Total time: 131.65 seconds
+[2018.07.28-08.41.09:798][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.28-08.41.09:808][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.07.28-08.41.10:827][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.28-08.41.11:583][  1]LogSlate: Took 0.013472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.28-08.41.12:425][  4]LogAssetRegistry: Asset discovery search completed in 80.0657 seconds
+[2018.07.28-08.41.12:450][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.28-08.41.12:450][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.006589 seconds (updated 0 objects)
+[2018.07.28-08.41.33:663][842]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.07.28-08.41.33:738][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-08.41.33:863][842]PIE: New page: PIE 세션: Jungle (2018. 7. 29. 오전 2:41:33)
+[2018.07.28-08.41.33:863][842]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Jungle
+[2018.07.28-08.41.33:911][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047262s)
+[2018.07.28-08.41.33:911][842]LogAIModule: Creating AISystem for world Jungle
+[2018.07.28-08.41.33:922][842]LogPlayLevel: PIE: World Init took: (0.011548s)
+[2018.07.28-08.41.33:932][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Jungle.Jungle to /Game/Maps/UEDPIE_0_Jungle.Jungle (0.068152s)
+[2018.07.28-08.41.33:992][842]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-08.41.34:009][842]LogInit: FAudioDevice initialized.
+[2018.07.28-08.41.34:082][842]LogLoad: Game class is 'BattleRoyalGameMode'
+[2018.07.28-08.41.34:202][842]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Jungle.Jungle up for play (max tick rate 0) at 2018.07.28-17.41.34
+[2018.07.28-08.41.34:228][842]LogWorld: Bringing up level for play took: 0.031654
+[2018.07.28-08.41.34:433][842]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0087 seconds. Added 11 classes and 0 folders.
+[2018.07.28-08.41.34:755][842]PIE: /Game/Maps/UEDPIE_0_Jungle 에 대한 에디터에서 플레이 시작 시간: 0.72
+[2018.07.28-08.42.17:709][848]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.28-08.42.17:793][848]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2018.07.28-08.42.17:841][848]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.42.18:349][848]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
+[2018.07.28-08.42.18:381][848]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.28-08.42.18:878][848]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.42.18:935][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.07.28-08.42.18:941][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.07.28-08.42.18:948][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.07.28-08.42.18:954][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.07.28-08.42.18:961][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2018.07.28-08.42.18:967][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.07.28-08.42.18:975][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.07.28-08.42.18:982][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.07.28-08.42.18:990][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.07.28-08.42.19:042][848]LogSlate: Took 0.023833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.28-08.42.21:302][918]MaterialEditorStats: Base pass shader: 72 instructions
+[2018.07.28-08.42.21:302][918]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.07.28-08.42.21:302][918]MaterialEditorStats: Texture samplers: 1/16
+[2018.07.28-08.42.41:757][164]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.42.41:787][164]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.42.41:814][164]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.42.41:848][164]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.42.41:888][164]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.42.41:955][164]LogTexture: Display: 텍스처 빌드: Texture2D_2 (G8, 128X128)
+[2018.07.28-08.43.00:613][  4]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.07.28-08.43.03:788][307]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.44.54:686][362]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape3)
+[2018.07.28-08.45.23:777][579]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.23:806][579]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2018.07.28-08.45.26:269][771]MaterialEditorStats: Base pass shader: 72 instructions
+[2018.07.28-08.45.26:269][771]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.07.28-08.45.26:269][771]MaterialEditorStats: Texture samplers: 1/16
+[2018.07.28-08.45.27:298][889]LogMaterialEditor: Saving and Compiling material M_Jungle
+[2018.07.28-08.45.27:799][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.27:897][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.27:973][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:035][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:059][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:083][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:108][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:142][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:258][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:376][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:502][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:620][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.28:776][889]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Jungle, compiling. 
+[2018.07.28-08.45.29:483][889]TextureStreamingBuild: Display: Compiling optional shaders took 0.726 seconds.
+[2018.07.28-08.45.32:535][889]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.45.32:729][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Materials/M_Jungle" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Materials/M_Jungle.uasset" SILENT=true
+[2018.07.28-08.45.32:853][889]LogSavePackage: Save=70.97ms
+[2018.07.28-08.45.32:853][889]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/M_Jungle7E2C0A5D414196F75B4D73B4012603E5.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Materials/M_Jungle.uasset'
+[2018.07.28-08.45.32:888][889]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Materials/M_Jungle.uasset
+[2018.07.28-08.45.32:898][889]MaterialEditorStats: Base pass shader: 72 instructions
+[2018.07.28-08.45.32:898][889]MaterialEditorStats: Vertex shader: 35 instructions
+[2018.07.28-08.45.32:898][889]MaterialEditorStats: Texture samplers: 1/16
+[2018.07.28-08.46.14:342][538]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.07.28-08.46.14:365][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-08.46.14:365][538]PIE: New page: PIE 세션: Jungle (2018. 7. 29. 오전 2:46:14)
+[2018.07.28-08.46.14:365][538]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Jungle
+[2018.07.28-08.46.14:382][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017291s)
+[2018.07.28-08.46.14:383][538]LogAIModule: Creating AISystem for world Jungle
+[2018.07.28-08.46.14:383][538]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2018.07.28-08.46.14:384][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Jungle.Jungle to /Game/Maps/UEDPIE_0_Jungle.Jungle (0.018592s)
+[2018.07.28-08.46.14:439][538]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-08.46.14:462][538]LogInit: FAudioDevice initialized.
+[2018.07.28-08.46.14:499][538]LogLoad: Game class is 'BattleRoyalGameMode'
+[2018.07.28-08.46.14:504][538]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Jungle.Jungle up for play (max tick rate 0) at 2018.07.28-17.46.14
+[2018.07.28-08.46.14:504][538]LogWorld: Bringing up level for play took: 0.004700
+[2018.07.28-08.46.14:507][538]PIE: /Game/Maps/UEDPIE_0_Jungle 에 대한 에디터에서 플레이 시작 시간: 0.472
+[2018.07.28-08.46.28:630][205]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.28:661][205]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2018.07.28-08.46.30:453][336]LogMaterialEditor: Saving and Compiling material M_Jungle
+[2018.07.28-08.46.31:013][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:096][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:157][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:218][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:246][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:271][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:300][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:414][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:523][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:633][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:747][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:865][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.31:908][336]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Jungle, compiling. 
+[2018.07.28-08.46.32:510][336]TextureStreamingBuild: Display: Compiling optional shaders took 0.611 seconds.
+[2018.07.28-08.46.34:752][336]LogMaterial: Missing cached shader map for material M_Jungle, compiling. 
+[2018.07.28-08.46.34:972][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Materials/M_Jungle" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Materials/M_Jungle.uasset" SILENT=true
+[2018.07.28-08.46.35:014][336]LogSavePackage: Save=34.07ms
+[2018.07.28-08.46.35:015][336]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/M_Jungle8630B4294F47C81FC96BB084B2A7D520.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Materials/M_Jungle.uasset'
+[2018.07.28-08.46.35:017][336]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Materials/M_Jungle.uasset
+[2018.07.28-08.46.35:030][336]MaterialEditorStats: Base pass shader: 72 instructions
+[2018.07.28-08.46.35:030][336]MaterialEditorStats: Vertex shader: 35 instructions
+[2018.07.28-08.46.35:030][336]MaterialEditorStats: Texture samplers: 1/16
+[2018.07.28-08.46.41:261][742]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.07.28-08.46.41:288][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-08.46.41:288][742]PIE: New page: PIE 세션: Jungle (2018. 7. 29. 오전 2:46:41)
+[2018.07.28-08.46.41:288][742]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Jungle
+[2018.07.28-08.46.41:321][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032418s)
+[2018.07.28-08.46.41:322][742]LogAIModule: Creating AISystem for world Jungle
+[2018.07.28-08.46.41:323][742]LogPlayLevel: PIE: World Init took: (0.001456s)
+[2018.07.28-08.46.41:323][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Jungle.Jungle to /Game/Maps/UEDPIE_0_Jungle.Jungle (0.034447s)
+[2018.07.28-08.46.41:384][742]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-08.46.41:412][742]LogInit: FAudioDevice initialized.
+[2018.07.28-08.46.41:463][742]LogLoad: Game class is 'BattleRoyalGameMode'
+[2018.07.28-08.46.41:470][742]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Jungle.Jungle up for play (max tick rate 0) at 2018.07.28-17.46.41
+[2018.07.28-08.46.41:471][742]LogWorld: Bringing up level for play took: 0.007036
+[2018.07.28-08.46.41:475][742]PIE: /Game/Maps/UEDPIE_0_Jungle 에 대한 에디터에서 플레이 시작 시간: -0.561
+[2018.07.28-08.47.23:034][231]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.07.28-08.47.32:903][ 65]LogRenderer: Reallocating scene render targets to support 1616x900 Format 10 NumSamples 1 (Frame:1).
+[2018.07.28-08.47.44:072][304]BlueprintLog: New page: ThirdPersonCharacter 컴파일
+[2018.07.28-08.47.45:543][389]LogSavePackage: Save=45.82ms
+[2018.07.28-08.47.45:543][389]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/ThirdPersonCharacterFAE095414469D3B5397EDA96D392DACA.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.07.28-08.47.45:552][389]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.07.28-08.47.51:548][ 76]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.07.28-08.47.51:578][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-08.47.51:579][ 76]PIE: New page: PIE 세션: Jungle (2018. 7. 29. 오전 2:47:51)
+[2018.07.28-08.47.51:579][ 76]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Jungle
+[2018.07.28-08.47.51:596][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016913s)
+[2018.07.28-08.47.51:596][ 76]LogAIModule: Creating AISystem for world Jungle
+[2018.07.28-08.47.51:596][ 76]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2018.07.28-08.47.51:597][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Jungle.Jungle to /Game/Maps/UEDPIE_0_Jungle.Jungle (0.017967s)
+[2018.07.28-08.47.51:646][ 76]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-08.47.51:662][ 76]LogInit: FAudioDevice initialized.
+[2018.07.28-08.47.51:698][ 76]LogLoad: Game class is 'BattleRoyalGameMode'
+[2018.07.28-08.47.51:705][ 76]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Jungle.Jungle up for play (max tick rate 0) at 2018.07.28-17.47.51
+[2018.07.28-08.47.51:706][ 76]LogWorld: Bringing up level for play took: 0.006560
+[2018.07.28-08.47.51:709][ 76]PIE: /Game/Maps/UEDPIE_0_Jungle 에 대한 에디터에서 플레이 시작 시간: -0.326
+[2018.07.28-08.48.05:472][630]BlueprintLog: New page: ThirdPersonCharacter 컴파일
+[2018.07.28-08.48.06:955][752]LogSavePackage: Save=24.62ms
+[2018.07.28-08.48.06:955][752]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/ThirdPersonCharacter3AF9E1C54B0994E1C78EA6B47C2E5DE2.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.07.28-08.48.06:957][752]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.07.28-08.48.08:644][953]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.07.28-08.48.08:665][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-08.48.08:665][953]PIE: New page: PIE 세션: Jungle (2018. 7. 29. 오전 2:48:08)
+[2018.07.28-08.48.08:665][953]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Jungle
+[2018.07.28-08.48.08:682][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016546s)
+[2018.07.28-08.48.08:682][953]LogAIModule: Creating AISystem for world Jungle
+[2018.07.28-08.48.08:683][953]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2018.07.28-08.48.08:683][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Jungle.Jungle to /Game/Maps/UEDPIE_0_Jungle.Jungle (0.017450s)
+[2018.07.28-08.48.08:734][953]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-08.48.08:751][953]LogInit: FAudioDevice initialized.
+[2018.07.28-08.48.08:786][953]LogLoad: Game class is 'BattleRoyalGameMode'
+[2018.07.28-08.48.08:790][953]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Jungle.Jungle up for play (max tick rate 0) at 2018.07.28-17.48.08
+[2018.07.28-08.48.08:790][953]LogWorld: Bringing up level for play took: 0.003390
+[2018.07.28-08.48.08:792][953]PIE: /Game/Maps/UEDPIE_0_Jungle 에 대한 에디터에서 플레이 시작 시간: 0.756
+[2018.07.28-08.48.38:901][483]BlueprintLog: New page: ThirdPersonCharacter 컴파일
+[2018.07.28-08.48.41:341][709]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.07.28-08.48.41:364][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-08.48.41:364][709]PIE: New page: PIE 세션: Jungle (2018. 7. 29. 오전 2:48:41)
+[2018.07.28-08.48.41:365][709]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Jungle
+[2018.07.28-08.48.41:384][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019825s)
+[2018.07.28-08.48.41:385][709]LogAIModule: Creating AISystem for world Jungle
+[2018.07.28-08.48.41:385][709]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2018.07.28-08.48.41:385][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Jungle.Jungle to /Game/Maps/UEDPIE_0_Jungle.Jungle (0.020851s)
+[2018.07.28-08.48.41:432][709]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-08.48.41:448][709]LogInit: FAudioDevice initialized.
+[2018.07.28-08.48.41:483][709]LogLoad: Game class is 'BattleRoyalGameMode'
+[2018.07.28-08.48.41:487][709]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Jungle.Jungle up for play (max tick rate 0) at 2018.07.28-17.48.41
+[2018.07.28-08.48.41:487][709]LogWorld: Bringing up level for play took: 0.003585
+[2018.07.28-08.48.41:489][709]PIE: /Game/Maps/UEDPIE_0_Jungle 에 대한 에디터에서 플레이 시작 시간: -0.546
+[2018.07.28-08.48.55:356][328]BlueprintLog: New page: ThirdPersonCharacter 컴파일
+[2018.07.28-08.48.57:006][450]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.07.28-08.48.57:026][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-08.48.57:026][450]PIE: New page: PIE 세션: Jungle (2018. 7. 29. 오전 2:48:57)
+[2018.07.28-08.48.57:026][450]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Jungle
+[2018.07.28-08.48.57:044][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017234s)
+[2018.07.28-08.48.57:044][450]LogAIModule: Creating AISystem for world Jungle
+[2018.07.28-08.48.57:045][450]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2018.07.28-08.48.57:045][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Jungle.Jungle to /Game/Maps/UEDPIE_0_Jungle.Jungle (0.018738s)
+[2018.07.28-08.48.57:094][450]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-08.48.57:112][450]LogInit: FAudioDevice initialized.
+[2018.07.28-08.48.57:188][450]LogLoad: Game class is 'BattleRoyalGameMode'
+[2018.07.28-08.48.57:193][450]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Jungle.Jungle up for play (max tick rate 0) at 2018.07.28-17.48.57
+[2018.07.28-08.48.57:193][450]LogWorld: Bringing up level for play took: 0.003646
+[2018.07.28-08.48.57:193][450]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.07.28-08.48.57:214][450]PIE: /Game/Maps/UEDPIE_0_Jungle 에 대한 에디터에서 플레이 시작 시간: 1.179
+[2018.07.28-08.52.34:818][525]LogSavePackage: Save=29.09ms
+[2018.07.28-08.52.34:818][525]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/ThirdPersonCharacterE962EC464F2B9AAC883A34BF55A1BABC.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.07.28-08.52.34:820][525]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.07.28-08.53.33:987][778]LogEditorActor: Deleted Actor: Landscape
+[2018.07.28-08.53.34:037][778]LogEditorActor: Deleted Actor: Landscape
+[2018.07.28-08.53.34:104][778]LogEditorActor: Deleted 2 Actors (0.197 secs)
+[2018.07.28-08.53.49:695][183]LogTexture: Display: 텍스처 빌드: Texture2D_3 (G8, 128X128)
+[2018.07.28-08.54.58:605][694]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2018.07.28-08.55.15:722][425]Cmd: CAMERA SNAP
+[2018.07.28-08.55.22:474][101]Cmd: CAMERA SNAP
+[2018.07.28-08.55.22:475][101]Snapped camera to the first selected object.
+[2018.07.28-08.56.21:745][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jungle" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.28-08.56.21:867][647]LogSavePackage: Save=104.15ms
+[2018.07.28-08.56.21:867][647]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Jungle_Auto14361F024494E5D914D4434B26E26A230.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto1.umap'
+[2018.07.28-08.56.21:869][647]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto1.umap
+[2018.07.28-08.56.21:901][647]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Jungle' took 0.211
+[2018.07.28-08.56.21:901][647]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.211
+[2018.07.28-09.06.46:807][495]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.07.28-09.06.46:829][495]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.07.28-09.06.46:847][495]LogTexture: Display: 텍스처 빌드: Texture2D_27 (BGRA8, 512X512)
+[2018.07.28-09.06.46:863][495]LogTexture: Display: 텍스처 빌드: Texture2D_28 (BGRA8, 512X512)
+[2018.07.28-09.06.46:882][495]LogTexture: Display: 텍스처 빌드: Texture2D_29 (BGRA8, 512X512)
+[2018.07.28-09.06.46:896][495]LogTexture: Display: 텍스처 빌드: Texture2D_30 (BGRA8, 512X512)
+[2018.07.28-09.06.46:912][495]LogTexture: Display: 텍스처 빌드: Texture2D_31 (BGRA8, 512X512)
+[2018.07.28-09.06.46:928][495]LogTexture: Display: 텍스처 빌드: Texture2D_32 (BGRA8, 512X512)
+[2018.07.28-09.06.46:944][495]LogTexture: Display: 텍스처 빌드: Texture2D_33 (BGRA8, 512X512)
+[2018.07.28-09.06.46:959][495]LogTexture: Display: 텍스처 빌드: Texture2D_34 (BGRA8, 512X512)
+[2018.07.28-09.06.46:973][495]LogTexture: Display: 텍스처 빌드: Texture2D_35 (BGRA8, 512X512)
+[2018.07.28-09.06.46:989][495]LogTexture: Display: 텍스처 빌드: Texture2D_36 (BGRA8, 512X512)
+[2018.07.28-09.06.47:004][495]LogTexture: Display: 텍스처 빌드: Texture2D_37 (BGRA8, 512X512)
+[2018.07.28-09.06.47:018][495]LogTexture: Display: 텍스처 빌드: Texture2D_38 (BGRA8, 512X512)
+[2018.07.28-09.06.47:035][495]LogTexture: Display: 텍스처 빌드: Texture2D_39 (BGRA8, 512X512)
+[2018.07.28-09.06.47:050][495]LogTexture: Display: 텍스처 빌드: Texture2D_40 (BGRA8, 512X512)
+[2018.07.28-09.06.47:067][495]LogTexture: Display: 텍스처 빌드: Texture2D_41 (BGRA8, 512X512)
+[2018.07.28-09.06.47:084][495]LogTexture: Display: 텍스처 빌드: Texture2D_42 (BGRA8, 512X512)
+[2018.07.28-09.06.47:103][495]LogTexture: Display: 텍스처 빌드: Texture2D_43 (BGRA8, 512X512)
+[2018.07.28-09.06.47:120][495]LogTexture: Display: 텍스처 빌드: Texture2D_44 (BGRA8, 512X512)
+[2018.07.28-09.06.47:135][495]LogTexture: Display: 텍스처 빌드: Texture2D_45 (BGRA8, 512X512)
+[2018.07.28-09.06.47:151][495]LogTexture: Display: 텍스처 빌드: Texture2D_46 (BGRA8, 512X512)
+[2018.07.28-09.06.47:167][495]LogTexture: Display: 텍스처 빌드: Texture2D_47 (BGRA8, 512X512)
+[2018.07.28-09.06.47:184][495]LogTexture: Display: 텍스처 빌드: Texture2D_48 (BGRA8, 512X512)
+[2018.07.28-09.06.47:201][495]LogTexture: Display: 텍스처 빌드: Texture2D_49 (BGRA8, 512X512)
+[2018.07.28-09.06.47:219][495]LogTexture: Display: 텍스처 빌드: Texture2D_50 (BGRA8, 512X512)
+[2018.07.28-09.06.47:238][495]LogTexture: Display: 텍스처 빌드: Texture2D_51 (BGRA8, 512X512)
+[2018.07.28-09.06.47:253][495]LogTexture: Display: 텍스처 빌드: Texture2D_52 (BGRA8, 512X512)
+[2018.07.28-09.06.47:268][495]LogTexture: Display: 텍스처 빌드: Texture2D_53 (BGRA8, 512X512)
+[2018.07.28-09.06.47:283][495]LogTexture: Display: 텍스처 빌드: Texture2D_54 (BGRA8, 512X512)
+[2018.07.28-09.06.47:298][495]LogTexture: Display: 텍스처 빌드: Texture2D_55 (BGRA8, 512X512)
+[2018.07.28-09.06.47:312][495]LogTexture: Display: 텍스처 빌드: Texture2D_56 (BGRA8, 512X512)
+[2018.07.28-09.06.47:328][495]LogTexture: Display: 텍스처 빌드: Texture2D_57 (BGRA8, 512X512)
+[2018.07.28-09.06.47:343][495]LogTexture: Display: 텍스처 빌드: Texture2D_58 (BGRA8, 512X512)
+[2018.07.28-09.06.47:357][495]LogTexture: Display: 텍스처 빌드: Texture2D_59 (BGRA8, 512X512)
+[2018.07.28-09.06.47:374][495]LogTexture: Display: 텍스처 빌드: Texture2D_60 (BGRA8, 512X512)
+[2018.07.28-09.06.47:390][495]LogTexture: Display: 텍스처 빌드: Texture2D_61 (BGRA8, 512X512)
+[2018.07.28-09.06.47:405][495]LogTexture: Display: 텍스처 빌드: Texture2D_62 (BGRA8, 512X512)
+[2018.07.28-09.06.47:421][495]LogTexture: Display: 텍스처 빌드: Texture2D_63 (BGRA8, 512X512)
+[2018.07.28-09.06.47:436][495]LogTexture: Display: 텍스처 빌드: Texture2D_64 (BGRA8, 512X512)
+[2018.07.28-09.06.47:451][495]LogTexture: Display: 텍스처 빌드: Texture2D_65 (BGRA8, 512X512)
+[2018.07.28-09.06.47:465][495]LogTexture: Display: 텍스처 빌드: Texture2D_66 (BGRA8, 512X512)
+[2018.07.28-09.06.47:484][495]LogTexture: Display: 텍스처 빌드: Texture2D_67 (BGRA8, 512X512)
+[2018.07.28-09.06.47:500][495]LogTexture: Display: 텍스처 빌드: Texture2D_68 (BGRA8, 512X512)
+[2018.07.28-09.06.47:518][495]LogTexture: Display: 텍스처 빌드: Texture2D_69 (BGRA8, 512X512)
+[2018.07.28-09.06.47:536][495]LogTexture: Display: 텍스처 빌드: Texture2D_70 (BGRA8, 512X512)
+[2018.07.28-09.06.47:554][495]LogTexture: Display: 텍스처 빌드: Texture2D_71 (BGRA8, 512X512)
+[2018.07.28-09.06.47:570][495]LogTexture: Display: 텍스처 빌드: Texture2D_72 (BGRA8, 512X512)
+[2018.07.28-09.06.47:587][495]LogTexture: Display: 텍스처 빌드: Texture2D_73 (BGRA8, 512X512)
+[2018.07.28-09.06.47:604][495]LogTexture: Display: 텍스처 빌드: Texture2D_74 (BGRA8, 512X512)
+[2018.07.28-09.06.47:622][495]LogTexture: Display: 텍스처 빌드: Texture2D_75 (BGRA8, 512X512)
+[2018.07.28-09.06.47:637][495]LogTexture: Display: 텍스처 빌드: Texture2D_76 (BGRA8, 512X512)
+[2018.07.28-09.06.47:653][495]LogTexture: Display: 텍스처 빌드: Texture2D_77 (BGRA8, 512X512)
+[2018.07.28-09.06.47:669][495]LogTexture: Display: 텍스처 빌드: Texture2D_78 (BGRA8, 512X512)
+[2018.07.28-09.06.47:688][495]LogTexture: Display: 텍스처 빌드: Texture2D_79 (BGRA8, 512X512)
+[2018.07.28-09.06.47:704][495]LogTexture: Display: 텍스처 빌드: Texture2D_80 (BGRA8, 512X512)
+[2018.07.28-09.06.47:722][495]LogTexture: Display: 텍스처 빌드: Texture2D_81 (BGRA8, 512X512)
+[2018.07.28-09.06.47:738][495]LogTexture: Display: 텍스처 빌드: Texture2D_82 (BGRA8, 512X512)
+[2018.07.28-09.06.47:754][495]LogTexture: Display: 텍스처 빌드: Texture2D_83 (BGRA8, 512X512)
+[2018.07.28-09.06.47:772][495]LogTexture: Display: 텍스처 빌드: Texture2D_84 (BGRA8, 512X512)
+[2018.07.28-09.06.47:789][495]LogTexture: Display: 텍스처 빌드: Texture2D_85 (BGRA8, 512X512)
+[2018.07.28-09.06.47:809][495]LogTexture: Display: 텍스처 빌드: Texture2D_86 (BGRA8, 512X512)
+[2018.07.28-09.06.47:827][495]LogTexture: Display: 텍스처 빌드: Texture2D_87 (BGRA8, 512X512)
+[2018.07.28-09.06.47:844][495]LogTexture: Display: 텍스처 빌드: Texture2D_88 (BGRA8, 512X512)
+[2018.07.28-09.06.47:859][495]LogTexture: Display: 텍스처 빌드: Texture2D_89 (BGRA8, 512X512)
+[2018.07.28-09.06.47:874][495]LogTexture: Display: 텍스처 빌드: Texture2D_90 (BGRA8, 512X512)
+[2018.07.28-09.06.47:892][495]LogTexture: Display: 텍스처 빌드: Texture2D_91 (BGRA8, 512X512)
+[2018.07.28-09.06.47:908][495]LogTexture: Display: 텍스처 빌드: Texture2D_92 (BGRA8, 512X512)
+[2018.07.28-09.06.47:923][495]LogTexture: Display: 텍스처 빌드: Texture2D_93 (BGRA8, 512X512)
+[2018.07.28-09.06.47:938][495]LogTexture: Display: 텍스처 빌드: Texture2D_94 (BGRA8, 512X512)
+[2018.07.28-09.06.47:953][495]LogTexture: Display: 텍스처 빌드: Texture2D_95 (BGRA8, 512X512)
+[2018.07.28-09.06.47:969][495]LogTexture: Display: 텍스처 빌드: Texture2D_96 (BGRA8, 512X512)
+[2018.07.28-09.06.47:987][495]LogTexture: Display: 텍스처 빌드: Texture2D_97 (BGRA8, 512X512)
+[2018.07.28-09.06.48:003][495]LogTexture: Display: 텍스처 빌드: Texture2D_98 (BGRA8, 512X512)
+[2018.07.28-09.06.48:021][495]LogTexture: Display: 텍스처 빌드: Texture2D_99 (BGRA8, 512X512)
+[2018.07.28-09.06.48:036][495]LogTexture: Display: 텍스처 빌드: Texture2D_100 (BGRA8, 512X512)
+[2018.07.28-09.06.48:053][495]LogTexture: Display: 텍스처 빌드: Texture2D_101 (BGRA8, 512X512)
+[2018.07.28-09.06.48:069][495]LogTexture: Display: 텍스처 빌드: Texture2D_102 (BGRA8, 512X512)
+[2018.07.28-09.06.48:084][495]LogTexture: Display: 텍스처 빌드: Texture2D_103 (BGRA8, 512X512)
+[2018.07.28-09.06.48:102][495]LogTexture: Display: 텍스처 빌드: Texture2D_104 (BGRA8, 512X512)
+[2018.07.28-09.06.48:120][495]LogTexture: Display: 텍스처 빌드: Texture2D_105 (BGRA8, 512X512)
+[2018.07.28-09.06.48:137][495]LogTexture: Display: 텍스처 빌드: Texture2D_106 (BGRA8, 512X512)
+[2018.07.28-09.06.48:156][495]LogTexture: Display: 텍스처 빌드: Texture2D_107 (BGRA8, 512X512)
+[2018.07.28-09.06.48:173][495]LogTexture: Display: 텍스처 빌드: Texture2D_108 (BGRA8, 512X512)
+[2018.07.28-09.06.48:191][495]LogTexture: Display: 텍스처 빌드: Texture2D_109 (BGRA8, 512X512)
+[2018.07.28-09.06.48:206][495]LogTexture: Display: 텍스처 빌드: Texture2D_110 (BGRA8, 512X512)
+[2018.07.28-09.06.48:223][495]LogTexture: Display: 텍스처 빌드: Texture2D_111 (BGRA8, 512X512)
+[2018.07.28-09.06.48:239][495]LogTexture: Display: 텍스처 빌드: Texture2D_112 (BGRA8, 512X512)
+[2018.07.28-09.06.48:257][495]LogTexture: Display: 텍스처 빌드: Texture2D_113 (BGRA8, 512X512)
+[2018.07.28-09.06.48:273][495]LogTexture: Display: 텍스처 빌드: Texture2D_114 (BGRA8, 512X512)
+[2018.07.28-09.06.48:291][495]LogTexture: Display: 텍스처 빌드: Texture2D_115 (BGRA8, 512X512)
+[2018.07.28-09.06.48:307][495]LogTexture: Display: 텍스처 빌드: Texture2D_116 (BGRA8, 512X512)
+[2018.07.28-09.06.48:325][495]LogTexture: Display: 텍스처 빌드: Texture2D_117 (BGRA8, 512X512)
+[2018.07.28-09.06.48:342][495]LogTexture: Display: 텍스처 빌드: Texture2D_118 (BGRA8, 512X512)
+[2018.07.28-09.06.48:359][495]LogTexture: Display: 텍스처 빌드: Texture2D_119 (BGRA8, 512X512)
+[2018.07.28-09.06.48:374][495]LogTexture: Display: 텍스처 빌드: Texture2D_120 (BGRA8, 512X512)
+[2018.07.28-09.06.48:390][495]LogTexture: Display: 텍스처 빌드: Texture2D_121 (BGRA8, 512X512)
+[2018.07.28-09.06.48:405][495]LogTexture: Display: 텍스처 빌드: Texture2D_122 (BGRA8, 512X512)
+[2018.07.28-09.06.48:422][495]LogTexture: Display: 텍스처 빌드: Texture2D_123 (BGRA8, 512X512)
+[2018.07.28-09.06.48:439][495]LogTexture: Display: 텍스처 빌드: Texture2D_124 (BGRA8, 512X512)
+[2018.07.28-09.06.48:459][495]LogTexture: Display: 텍스처 빌드: Texture2D_125 (BGRA8, 512X512)
+[2018.07.28-09.06.48:478][495]LogTexture: Display: 텍스처 빌드: Texture2D_126 (BGRA8, 512X512)
+[2018.07.28-09.06.48:501][495]LogTexture: Display: 텍스처 빌드: Texture2D_127 (BGRA8, 512X512)
+[2018.07.28-09.06.48:527][495]LogTexture: Display: 텍스처 빌드: Texture2D_128 (BGRA8, 512X512)
+[2018.07.28-09.06.48:549][495]LogTexture: Display: 텍스처 빌드: Texture2D_129 (BGRA8, 512X512)
+[2018.07.28-09.06.48:569][495]LogTexture: Display: 텍스처 빌드: Texture2D_130 (BGRA8, 512X512)
+[2018.07.28-09.06.48:587][495]LogTexture: Display: 텍스처 빌드: Texture2D_131 (BGRA8, 512X512)
+[2018.07.28-09.06.48:606][495]LogTexture: Display: 텍스처 빌드: Texture2D_132 (BGRA8, 512X512)
+[2018.07.28-09.06.48:625][495]LogTexture: Display: 텍스처 빌드: Texture2D_133 (BGRA8, 512X512)
+[2018.07.28-09.06.48:643][495]LogTexture: Display: 텍스처 빌드: Texture2D_134 (BGRA8, 512X512)
+[2018.07.28-09.06.48:666][495]LogTexture: Display: 텍스처 빌드: Texture2D_135 (BGRA8, 512X512)
+[2018.07.28-09.06.48:683][495]LogTexture: Display: 텍스처 빌드: Texture2D_136 (BGRA8, 512X512)
+[2018.07.28-09.06.48:702][495]LogTexture: Display: 텍스처 빌드: Texture2D_137 (BGRA8, 512X512)
+[2018.07.28-09.06.48:721][495]LogTexture: Display: 텍스처 빌드: Texture2D_138 (BGRA8, 512X512)
+[2018.07.28-09.06.48:737][495]LogTexture: Display: 텍스처 빌드: Texture2D_139 (BGRA8, 512X512)
+[2018.07.28-09.06.48:755][495]LogTexture: Display: 텍스처 빌드: Texture2D_140 (BGRA8, 512X512)
+[2018.07.28-09.06.48:774][495]LogTexture: Display: 텍스처 빌드: Texture2D_141 (BGRA8, 512X512)
+[2018.07.28-09.06.48:793][495]LogTexture: Display: 텍스처 빌드: Texture2D_142 (BGRA8, 512X512)
+[2018.07.28-09.06.48:811][495]LogTexture: Display: 텍스처 빌드: Texture2D_143 (BGRA8, 512X512)
+[2018.07.28-09.06.48:830][495]LogTexture: Display: 텍스처 빌드: Texture2D_144 (BGRA8, 512X512)
+[2018.07.28-09.06.48:851][495]LogTexture: Display: 텍스처 빌드: Texture2D_145 (BGRA8, 512X512)
+[2018.07.28-09.06.48:870][495]LogTexture: Display: 텍스처 빌드: Texture2D_146 (BGRA8, 512X512)
+[2018.07.28-09.06.48:888][495]LogTexture: Display: 텍스처 빌드: Texture2D_147 (BGRA8, 512X512)
+[2018.07.28-09.06.48:907][495]LogTexture: Display: 텍스처 빌드: Texture2D_148 (BGRA8, 512X512)
+[2018.07.28-09.06.48:924][495]LogTexture: Display: 텍스처 빌드: Texture2D_149 (BGRA8, 512X512)
+[2018.07.28-09.06.48:941][495]LogTexture: Display: 텍스처 빌드: Texture2D_150 (BGRA8, 512X512)
+[2018.07.28-09.06.48:959][495]LogTexture: Display: 텍스처 빌드: Texture2D_151 (BGRA8, 512X512)
+[2018.07.28-09.06.48:977][495]LogTexture: Display: 텍스처 빌드: Texture2D_152 (BGRA8, 512X512)
+[2018.07.28-09.06.48:995][495]LogTexture: Display: 텍스처 빌드: Texture2D_153 (BGRA8, 512X512)
+[2018.07.28-09.06.49:013][495]LogTexture: Display: 텍스처 빌드: Texture2D_154 (BGRA8, 512X512)
+[2018.07.28-09.06.49:032][495]LogTexture: Display: 텍스처 빌드: Texture2D_155 (BGRA8, 512X512)
+[2018.07.28-09.06.49:049][495]LogTexture: Display: 텍스처 빌드: Texture2D_156 (BGRA8, 512X512)
+[2018.07.28-09.06.49:067][495]LogTexture: Display: 텍스처 빌드: Texture2D_157 (BGRA8, 512X512)
+[2018.07.28-09.06.49:083][495]LogTexture: Display: 텍스처 빌드: Texture2D_158 (BGRA8, 512X512)
+[2018.07.28-09.06.49:100][495]LogTexture: Display: 텍스처 빌드: Texture2D_159 (BGRA8, 512X512)
+[2018.07.28-09.06.49:119][495]LogTexture: Display: 텍스처 빌드: Texture2D_160 (BGRA8, 512X512)
+[2018.07.28-09.06.49:137][495]LogTexture: Display: 텍스처 빌드: Texture2D_161 (BGRA8, 512X512)
+[2018.07.28-09.06.49:156][495]LogTexture: Display: 텍스처 빌드: Texture2D_162 (BGRA8, 512X512)
+[2018.07.28-09.06.49:173][495]LogTexture: Display: 텍스처 빌드: Texture2D_163 (BGRA8, 512X512)
+[2018.07.28-09.06.49:192][495]LogTexture: Display: 텍스처 빌드: Texture2D_164 (BGRA8, 512X512)
+[2018.07.28-09.06.49:210][495]LogTexture: Display: 텍스처 빌드: Texture2D_165 (BGRA8, 512X512)
+[2018.07.28-09.06.49:229][495]LogTexture: Display: 텍스처 빌드: Texture2D_166 (BGRA8, 512X512)
+[2018.07.28-09.06.49:249][495]LogTexture: Display: 텍스처 빌드: Texture2D_167 (BGRA8, 512X512)
+[2018.07.28-09.06.49:272][495]LogTexture: Display: 텍스처 빌드: Texture2D_168 (BGRA8, 512X512)
+[2018.07.28-09.06.49:291][495]LogTexture: Display: 텍스처 빌드: Texture2D_169 (BGRA8, 512X512)
+[2018.07.28-09.06.49:309][495]LogTexture: Display: 텍스처 빌드: Texture2D_170 (BGRA8, 512X512)
+[2018.07.28-09.06.49:331][495]LogTexture: Display: 텍스처 빌드: Texture2D_171 (BGRA8, 512X512)
+[2018.07.28-09.06.49:350][495]LogTexture: Display: 텍스처 빌드: Texture2D_172 (BGRA8, 512X512)
+[2018.07.28-09.06.49:369][495]LogTexture: Display: 텍스처 빌드: Texture2D_173 (BGRA8, 512X512)
+[2018.07.28-09.06.49:387][495]LogTexture: Display: 텍스처 빌드: Texture2D_174 (BGRA8, 512X512)
+[2018.07.28-09.06.49:407][495]LogTexture: Display: 텍스처 빌드: Texture2D_175 (BGRA8, 512X512)
+[2018.07.28-09.06.49:425][495]LogTexture: Display: 텍스처 빌드: Texture2D_176 (BGRA8, 512X512)
+[2018.07.28-09.06.49:442][495]LogTexture: Display: 텍스처 빌드: Texture2D_177 (BGRA8, 512X512)
+[2018.07.28-09.06.49:460][495]LogTexture: Display: 텍스처 빌드: Texture2D_178 (BGRA8, 512X512)
+[2018.07.28-09.06.49:478][495]LogTexture: Display: 텍스처 빌드: Texture2D_179 (BGRA8, 512X512)
+[2018.07.28-09.06.49:495][495]LogTexture: Display: 텍스처 빌드: Texture2D_180 (BGRA8, 512X512)
+[2018.07.28-09.06.49:511][495]LogTexture: Display: 텍스처 빌드: Texture2D_181 (BGRA8, 512X512)
+[2018.07.28-09.06.49:529][495]LogTexture: Display: 텍스처 빌드: Texture2D_182 (BGRA8, 512X512)
+[2018.07.28-09.06.49:546][495]LogTexture: Display: 텍스처 빌드: Texture2D_183 (BGRA8, 512X512)
+[2018.07.28-09.06.49:565][495]LogTexture: Display: 텍스처 빌드: Texture2D_184 (BGRA8, 512X512)
+[2018.07.28-09.06.49:585][495]LogTexture: Display: 텍스처 빌드: Texture2D_185 (BGRA8, 512X512)
+[2018.07.28-09.06.49:603][495]LogTexture: Display: 텍스처 빌드: Texture2D_186 (BGRA8, 512X512)
+[2018.07.28-09.06.49:626][495]LogTexture: Display: 텍스처 빌드: Texture2D_187 (BGRA8, 512X512)
+[2018.07.28-09.06.49:643][495]LogTexture: Display: 텍스처 빌드: Texture2D_188 (BGRA8, 512X512)
+[2018.07.28-09.06.49:659][495]LogTexture: Display: 텍스처 빌드: Texture2D_189 (BGRA8, 512X512)
+[2018.07.28-09.06.49:676][495]LogTexture: Display: 텍스처 빌드: Texture2D_190 (BGRA8, 512X512)
+[2018.07.28-09.06.49:692][495]LogTexture: Display: 텍스처 빌드: Texture2D_191 (BGRA8, 512X512)
+[2018.07.28-09.06.49:708][495]LogTexture: Display: 텍스처 빌드: Texture2D_192 (BGRA8, 512X512)
+[2018.07.28-09.06.49:725][495]LogTexture: Display: 텍스처 빌드: Texture2D_193 (BGRA8, 512X512)
+[2018.07.28-09.06.49:742][495]LogTexture: Display: 텍스처 빌드: Texture2D_194 (BGRA8, 512X512)
+[2018.07.28-09.06.49:758][495]LogTexture: Display: 텍스처 빌드: Texture2D_195 (BGRA8, 512X512)
+[2018.07.28-09.06.49:776][495]LogTexture: Display: 텍스처 빌드: Texture2D_196 (BGRA8, 512X512)
+[2018.07.28-09.06.49:792][495]LogTexture: Display: 텍스처 빌드: Texture2D_197 (BGRA8, 512X512)
+[2018.07.28-09.06.49:809][495]LogTexture: Display: 텍스처 빌드: Texture2D_198 (BGRA8, 512X512)
+[2018.07.28-09.06.49:824][495]LogTexture: Display: 텍스처 빌드: Texture2D_199 (BGRA8, 512X512)
+[2018.07.28-09.06.49:845][495]LogTexture: Display: 텍스처 빌드: Texture2D_200 (BGRA8, 512X512)
+[2018.07.28-09.06.49:868][495]LogTexture: Display: 텍스처 빌드: Texture2D_201 (BGRA8, 512X512)
+[2018.07.28-09.06.49:885][495]LogTexture: Display: 텍스처 빌드: Texture2D_202 (BGRA8, 512X512)
+[2018.07.28-09.06.49:908][495]LogTexture: Display: 텍스처 빌드: Texture2D_203 (BGRA8, 512X512)
+[2018.07.28-09.06.49:925][495]LogTexture: Display: 텍스처 빌드: Texture2D_204 (BGRA8, 512X512)
+[2018.07.28-09.06.49:944][495]LogTexture: Display: 텍스처 빌드: Texture2D_205 (BGRA8, 512X512)
+[2018.07.28-09.06.49:961][495]LogTexture: Display: 텍스처 빌드: Texture2D_206 (BGRA8, 512X512)
+[2018.07.28-09.06.49:977][495]LogTexture: Display: 텍스처 빌드: Texture2D_207 (BGRA8, 512X512)
+[2018.07.28-09.06.49:992][495]LogTexture: Display: 텍스처 빌드: Texture2D_208 (BGRA8, 512X512)
+[2018.07.28-09.06.50:006][495]LogTexture: Display: 텍스처 빌드: Texture2D_209 (BGRA8, 512X512)
+[2018.07.28-09.06.50:023][495]LogTexture: Display: 텍스처 빌드: Texture2D_210 (BGRA8, 512X512)
+[2018.07.28-09.06.50:039][495]LogTexture: Display: 텍스처 빌드: Texture2D_211 (BGRA8, 512X512)
+[2018.07.28-09.06.50:055][495]LogTexture: Display: 텍스처 빌드: Texture2D_212 (BGRA8, 512X512)
+[2018.07.28-09.06.50:072][495]LogTexture: Display: 텍스처 빌드: Texture2D_213 (BGRA8, 512X512)
+[2018.07.28-09.06.50:090][495]LogTexture: Display: 텍스처 빌드: Texture2D_214 (BGRA8, 512X512)
+[2018.07.28-09.06.50:107][495]LogTexture: Display: 텍스처 빌드: Texture2D_215 (BGRA8, 512X512)
+[2018.07.28-09.06.50:124][495]LogTexture: Display: 텍스처 빌드: Texture2D_216 (BGRA8, 512X512)
+[2018.07.28-09.06.50:140][495]LogTexture: Display: 텍스처 빌드: Texture2D_217 (BGRA8, 512X512)
+[2018.07.28-09.06.50:159][495]LogTexture: Display: 텍스처 빌드: Texture2D_218 (BGRA8, 512X512)
+[2018.07.28-09.06.50:178][495]LogTexture: Display: 텍스처 빌드: Texture2D_219 (BGRA8, 512X512)
+[2018.07.28-09.06.50:193][495]LogTexture: Display: 텍스처 빌드: Texture2D_220 (BGRA8, 512X512)
+[2018.07.28-09.06.50:208][495]LogTexture: Display: 텍스처 빌드: Texture2D_221 (BGRA8, 512X512)
+[2018.07.28-09.06.50:226][495]LogTexture: Display: 텍스처 빌드: Texture2D_222 (BGRA8, 512X512)
+[2018.07.28-09.06.50:241][495]LogTexture: Display: 텍스처 빌드: Texture2D_223 (BGRA8, 512X512)
+[2018.07.28-09.06.50:260][495]LogTexture: Display: 텍스처 빌드: Texture2D_224 (BGRA8, 512X512)
+[2018.07.28-09.06.50:276][495]LogTexture: Display: 텍스처 빌드: Texture2D_225 (BGRA8, 512X512)
+[2018.07.28-09.06.50:290][495]LogTexture: Display: 텍스처 빌드: Texture2D_226 (BGRA8, 512X512)
+[2018.07.28-09.06.50:307][495]LogTexture: Display: 텍스처 빌드: Texture2D_227 (BGRA8, 512X512)
+[2018.07.28-09.06.50:323][495]LogTexture: Display: 텍스처 빌드: Texture2D_228 (BGRA8, 512X512)
+[2018.07.28-09.06.50:339][495]LogTexture: Display: 텍스처 빌드: Texture2D_229 (BGRA8, 512X512)
+[2018.07.28-09.06.50:356][495]LogTexture: Display: 텍스처 빌드: Texture2D_230 (BGRA8, 512X512)
+[2018.07.28-09.06.50:374][495]LogTexture: Display: 텍스처 빌드: Texture2D_231 (BGRA8, 512X512)
+[2018.07.28-09.06.50:391][495]LogTexture: Display: 텍스처 빌드: Texture2D_232 (BGRA8, 512X512)
+[2018.07.28-09.06.50:414][495]LogTexture: Display: 텍스처 빌드: Texture2D_233 (BGRA8, 512X512)
+[2018.07.28-09.06.50:433][495]LogTexture: Display: 텍스처 빌드: Texture2D_234 (BGRA8, 512X512)
+[2018.07.28-09.06.50:451][495]LogTexture: Display: 텍스처 빌드: Texture2D_235 (BGRA8, 512X512)
+[2018.07.28-09.06.50:469][495]LogTexture: Display: 텍스처 빌드: Texture2D_236 (BGRA8, 512X512)
+[2018.07.28-09.06.50:487][495]LogTexture: Display: 텍스처 빌드: Texture2D_237 (BGRA8, 512X512)
+[2018.07.28-09.06.50:505][495]LogTexture: Display: 텍스처 빌드: Texture2D_238 (BGRA8, 512X512)
+[2018.07.28-09.06.50:521][495]LogTexture: Display: 텍스처 빌드: Texture2D_239 (BGRA8, 512X512)
+[2018.07.28-09.06.50:543][495]LogTexture: Display: 텍스처 빌드: Texture2D_240 (BGRA8, 512X512)
+[2018.07.28-09.06.50:562][495]LogTexture: Display: 텍스처 빌드: Texture2D_241 (BGRA8, 512X512)
+[2018.07.28-09.06.50:582][495]LogTexture: Display: 텍스처 빌드: Texture2D_242 (BGRA8, 512X512)
+[2018.07.28-09.06.50:604][495]LogTexture: Display: 텍스처 빌드: Texture2D_243 (BGRA8, 512X512)
+[2018.07.28-09.06.50:625][495]LogTexture: Display: 텍스처 빌드: Texture2D_244 (BGRA8, 512X512)
+[2018.07.28-09.06.50:647][495]LogTexture: Display: 텍스처 빌드: Texture2D_245 (BGRA8, 512X512)
+[2018.07.28-09.06.50:667][495]LogTexture: Display: 텍스처 빌드: Texture2D_246 (BGRA8, 512X512)
+[2018.07.28-09.06.50:687][495]LogTexture: Display: 텍스처 빌드: Texture2D_247 (BGRA8, 512X512)
+[2018.07.28-09.06.50:707][495]LogTexture: Display: 텍스처 빌드: Texture2D_248 (BGRA8, 512X512)
+[2018.07.28-09.06.50:727][495]LogTexture: Display: 텍스처 빌드: Texture2D_249 (BGRA8, 512X512)
+[2018.07.28-09.06.50:757][495]LogTexture: Display: 텍스처 빌드: Texture2D_250 (BGRA8, 512X512)
+[2018.07.28-09.06.50:774][495]LogTexture: Display: 텍스처 빌드: Texture2D_251 (BGRA8, 512X512)
+[2018.07.28-09.06.50:794][495]LogTexture: Display: 텍스처 빌드: Texture2D_252 (BGRA8, 512X512)
+[2018.07.28-09.06.50:815][495]LogTexture: Display: 텍스처 빌드: Texture2D_253 (BGRA8, 512X512)
+[2018.07.28-09.06.50:834][495]LogTexture: Display: 텍스처 빌드: Texture2D_254 (BGRA8, 512X512)
+[2018.07.28-09.06.50:851][495]LogTexture: Display: 텍스처 빌드: Texture2D_255 (BGRA8, 512X512)
+[2018.07.28-09.06.50:870][495]LogTexture: Display: 텍스처 빌드: Texture2D_256 (BGRA8, 512X512)
+[2018.07.28-09.06.50:887][495]LogTexture: Display: 텍스처 빌드: Texture2D_257 (BGRA8, 512X512)
+[2018.07.28-09.06.50:908][495]LogTexture: Display: 텍스처 빌드: Texture2D_258 (BGRA8, 512X512)
+[2018.07.28-09.06.50:926][495]LogTexture: Display: 텍스처 빌드: Texture2D_259 (BGRA8, 512X512)
+[2018.07.28-09.06.50:946][495]LogTexture: Display: 텍스처 빌드: Texture2D_260 (BGRA8, 512X512)
+[2018.07.28-09.06.50:963][495]LogTexture: Display: 텍스처 빌드: Texture2D_261 (BGRA8, 512X512)
+[2018.07.28-09.06.50:981][495]LogTexture: Display: 텍스처 빌드: Texture2D_262 (BGRA8, 512X512)
+[2018.07.28-09.06.50:997][495]LogTexture: Display: 텍스처 빌드: Texture2D_263 (BGRA8, 512X512)
+[2018.07.28-09.06.51:014][495]LogTexture: Display: 텍스처 빌드: Texture2D_264 (BGRA8, 512X512)
+[2018.07.28-09.06.51:029][495]LogTexture: Display: 텍스처 빌드: Texture2D_265 (BGRA8, 512X512)
+[2018.07.28-09.06.51:045][495]LogTexture: Display: 텍스처 빌드: Texture2D_266 (BGRA8, 512X512)
+[2018.07.28-09.06.51:062][495]LogTexture: Display: 텍스처 빌드: Texture2D_267 (BGRA8, 512X512)
+[2018.07.28-09.06.51:077][495]LogTexture: Display: 텍스처 빌드: Texture2D_268 (BGRA8, 512X512)
+[2018.07.28-09.06.51:092][495]LogTexture: Display: 텍스처 빌드: Texture2D_269 (BGRA8, 512X512)
+[2018.07.28-09.06.51:107][495]LogTexture: Display: 텍스처 빌드: Texture2D_270 (BGRA8, 512X512)
+[2018.07.28-09.06.51:123][495]LogTexture: Display: 텍스처 빌드: Texture2D_271 (BGRA8, 512X512)
+[2018.07.28-09.06.51:138][495]LogTexture: Display: 텍스처 빌드: Texture2D_272 (BGRA8, 512X512)
+[2018.07.28-09.06.51:157][495]LogTexture: Display: 텍스처 빌드: Texture2D_273 (BGRA8, 512X512)
+[2018.07.28-09.06.51:171][495]LogTexture: Display: 텍스처 빌드: Texture2D_274 (BGRA8, 512X512)
+[2018.07.28-09.06.51:195][495]LogTexture: Display: 텍스처 빌드: Texture2D_275 (BGRA8, 512X512)
+[2018.07.28-09.06.51:212][495]LogTexture: Display: 텍스처 빌드: Texture2D_276 (BGRA8, 512X512)
+[2018.07.28-09.06.51:228][495]LogTexture: Display: 텍스처 빌드: Texture2D_277 (BGRA8, 512X512)
+[2018.07.28-09.06.51:247][495]LogTexture: Display: 텍스처 빌드: Texture2D_278 (BGRA8, 512X512)
+[2018.07.28-09.06.51:264][495]LogTexture: Display: 텍스처 빌드: Texture2D_279 (BGRA8, 512X512)
+[2018.07.28-09.06.51:278][495]LogTexture: Display: 텍스처 빌드: Texture2D_280 (BGRA8, 512X512)
+[2018.07.28-09.07.08:089][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jungle" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.28-09.07.11:623][345]LogSavePackage: Save=3519.87ms
+[2018.07.28-09.07.11:625][345]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Jungle_Auto20EFF998E4F1BFD74373D0BAD5FCABBB6.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto2.umap'
+[2018.07.28-09.07.11:842][345]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto2.umap
+[2018.07.28-09.07.11:846][345]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Jungle' took 3.779
+[2018.07.28-09.07.11:847][345]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.779
+[2018.07.28-09.17.12:628][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jungle" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.28-09.17.14:963][357]LogSavePackage: Save=2324.77ms
+[2018.07.28-09.17.14:963][357]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Jungle_Auto3FB5BA0BD44B69641A598DEAA2D8DD0BA.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto3.umap'
+[2018.07.28-09.17.14:965][357]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Autosaves/Game/Maps/Jungle_Auto3.umap
+[2018.07.28-09.17.14:967][357]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Jungle' took 2.365
+[2018.07.28-09.17.14:967][357]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.365
+[2018.07.28-10.41.45:947][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jungle" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.28-10.41.49:033][472]LogSavePackage: Save=3041.21ms
+[2018.07.28-10.41.49:033][472]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/JungleCC37689D4391981C06331C92599223EA.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle.umap'
+[2018.07.28-10.41.49:039][472]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle.umap
+[2018.07.28-10.41.49:117][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Jungle_BuiltData" FILE="../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle_BuiltData.uasset" SILENT=true
+[2018.07.28-10.41.49:148][472]LogSavePackage: Save=23.28ms
+[2018.07.28-10.41.49:148][472]LogSavePackage: Moving '../../../../../../GitHub/AloneDevBR/BattleRoyal/Saved/Jungle_BuiltData5E200239491D2D1EAA72F7A85B8D11B1.tmp' to '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle_BuiltData.uasset'
+[2018.07.28-10.41.49:149][472]LogSavePackage: Display: Finished SavePackage ../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/Maps/Jungle_BuiltData.uasset
+[2018.07.28-10.41.53:735][731]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.07.28-10.41.54:452][732]Cmd: QUIT_EDITOR
+[2018.07.28-10.41.55:285][732]LogExit: Preparing to exit.
+[2018.07.28-10.41.56:850][732]LogDirectoryWatcher: A directory notification for 'D:/GitHub/AloneDevBR/BattleRoyal/Content/' was aborted.
+[2018.07.28-10.41.57:156][732]LogExit: Editor shut down
+[2018.07.28-10.41.57:193][732]LogExit: Transaction tracking system shut down
+[2018.07.28-10.41.57:682][732]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.07.28-10.41.57:683][732]LogDirectoryWatcher: A directory notification for '../../../../../../GitHub/AloneDevBR/BattleRoyal/Content/' was aborted.
+[2018.07.28-10.41.57:683][732]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.07.28-10.41.57:683][732]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.07.28-10.41.57:683][732]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.07.28-10.41.57:683][732]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.07.28-10.41.57:683][732]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.07.28-10.41.59:831][732]LogExit: Object subsystem successfully closed.
+[2018.07.28-10.42.00:476][732]LogD3D11RHI: Shutdown
+[2018.07.28-10.42.00:490][732]LogD3D11RHI: CleanupD3DDevice
+[2018.07.28-10.42.00:531][732]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.28-10.42.01:484][732]LogModuleManager: Shutting down and abandoning module BlueprintGraph (558)
+[2018.07.28-10.42.01:485][732]LogModuleManager: Shutting down and abandoning module MaterialEditor (556)
+[2018.07.28-10.42.01:485][732]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2018.07.28-10.42.01:485][732]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
+[2018.07.28-10.42.01:485][732]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (550)
+[2018.07.28-10.42.01:485][732]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
+[2018.07.28-10.42.01:485][732]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.07.28-10.42.01:485][732]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.07.28-10.42.01:500][732]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.07.28-10.42.01:519][732]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.07.28-10.42.01:519][732]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.07.28-10.42.01:519][732]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.07.28-10.42.01:538][732]LogDirectoryWatcher: A directory notification for 'D:/GitHub/AloneDevBR/BattleRoyal/Content/Collections/' was aborted.
+[2018.07.28-10.42.01:538][732]LogDirectoryWatcher: A directory notification for 'D:/GitHub/AloneDevBR/BattleRoyal/Content/Developers/Rodun/Collections/' was aborted.
+[2018.07.28-10.42.01:538][732]LogDirectoryWatcher: A directory notification for 'D:/GitHub/AloneDevBR/BattleRoyal/Saved/Collections/' was aborted.
+[2018.07.28-10.42.01:538][732]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.07.28-10.42.01:552][732]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.07.28-10.42.01:560][732]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.07.28-10.42.01:574][732]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.07.28-10.42.01:574][732]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.07.28-10.42.01:574][732]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.07.28-10.42.01:574][732]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.07.28-10.42.01:574][732]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.07.28-10.42.01:574][732]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.07.28-10.42.01:574][732]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.07.28-10.42.01:574][732]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.07.28-10.42.01:574][732]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.07.28-10.42.01:581][732]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.07.28-10.42.01:591][732]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.07.28-10.42.01:591][732]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.07.28-10.42.01:651][732]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.07.28-10.42.01:663][732]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.07.28-10.42.01:663][732]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.07.28-10.42.01:664][732]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.07.28-10.42.01:664][732]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.07.28-10.42.01:664][732]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.07.28-10.42.01:664][732]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.07.28-10.42.01:689][732]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.07.28-10.42.01:707][732]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.07.28-10.42.01:719][732]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.07.28-10.42.01:826][732]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.07.28-10.42.01:851][732]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.07.28-10.42.01:851][732]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.07.28-10.42.01:851][732]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.07.28-10.42.01:851][732]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.07.28-10.42.02:135][732]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.07.28-10.42.02:136][732]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.07.28-10.42.02:136][732]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.07.28-10.42.02:136][732]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.07.28-10.42.02:142][732]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.07.28-10.42.02:158][732]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.07.28-10.42.02:158][732]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.07.28-10.42.02:174][732]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.07.28-10.42.02:174][732]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.07.28-10.42.02:210][732]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.07.28-10.42.02:216][732]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.07.28-10.42.02:216][732]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.07.28-10.42.02:216][732]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.07.28-10.42.02:216][732]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.07.28-10.42.02:216][732]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.07.28-10.42.02:216][732]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.07.28-10.42.02:216][732]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.07.28-10.42.02:216][732]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.07.28-10.42.02:217][732]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.07.28-10.42.02:217][732]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.07.28-10.42.02:237][732]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.07.28-10.42.02:251][732]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.07.28-10.42.02:252][732]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.07.28-10.42.02:257][732]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.07.28-10.42.02:312][732]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.07.28-10.42.02:322][732]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.07.28-10.42.02:356][732]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.07.28-10.42.02:375][732]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.07.28-10.42.02:375][732]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.07.28-10.42.02:383][732]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.07.28-10.42.02:401][732]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.07.28-10.42.02:467][732]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.07.28-10.42.02:467][732]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.07.28-10.42.02:467][732]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.07.28-10.42.02:521][732]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.07.28-10.42.02:521][732]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.07.28-10.42.02:521][732]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.07.28-10.42.02:522][732]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.07.28-10.42.02:586][732]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.07.28-10.42.02:586][732]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.07.28-10.42.02:594][732]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.07.28-10.42.02:606][732]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
+[2018.07.28-10.42.02:670][732]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
+[2018.07.28-10.42.02:696][732]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
+[2018.07.28-10.42.02:696][732]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
+[2018.07.28-10.42.02:697][732]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2018.07.28-10.42.02:697][732]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2018.07.28-10.42.02:709][732]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2018.07.28-10.42.02:709][732]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2018.07.28-10.42.02:709][732]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2018.07.28-10.42.02:723][732]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
+[2018.07.28-10.42.02:723][732]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
+[2018.07.28-10.42.02:723][732]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.07.28-10.42.02:723][732]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.07.28-10.42.02:740][732]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.07.28-10.42.02:740][732]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.07.28-10.42.02:740][732]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.07.28-10.42.02:740][732]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.07.28-10.42.02:746][732]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.07.28-10.42.02:746][732]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.07.28-10.42.02:763][732]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.07.28-10.42.02:763][732]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.07.28-10.42.02:763][732]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.07.28-10.42.02:805][732]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.07.28-10.42.02:838][732]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.07.28-10.42.02:838][732]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.07.28-10.42.02:838][732]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.07.28-10.42.02:838][732]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.07.28-10.42.02:868][732]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.07.28-10.42.02:882][732]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.07.28-10.42.02:904][732]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.07.28-10.42.02:937][732]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.07.28-10.42.02:937][732]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.07.28-10.42.02:937][732]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.07.28-10.42.02:937][732]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.07.28-10.42.02:957][732]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.07.28-10.42.02:964][732]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.07.28-10.42.02:978][732]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.07.28-10.42.03:003][732]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.07.28-10.42.03:004][732]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.07.28-10.42.03:012][732]LogDirectoryWatcher: A directory notification for 'D:/GitHub/AloneDevBR/BattleRoyal/Binaries/Win64' was aborted.
+[2018.07.28-10.42.03:020][732]LogModuleManager: Shutting down and abandoning module BattleRoyal (270)
+[2018.07.28-10.42.03:020][732]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.07.28-10.42.03:020][732]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.07.28-10.42.03:020][732]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.07.28-10.42.03:020][732]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.07.28-10.42.03:020][732]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.07.28-10.42.03:020][732]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.07.28-10.42.03:020][732]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.07.28-10.42.03:023][732]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.07.28-10.42.03:137][732]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.07.28-10.42.03:251][732]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.07.28-10.42.03:267][732]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.07.28-10.42.03:267][732]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.07.28-10.42.03:267][732]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.07.28-10.42.03:314][732]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.07.28-10.42.03:314][732]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.07.28-10.42.03:316][732]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.07.28-10.42.03:316][732]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.07.28-10.42.03:316][732]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.07.28-10.42.03:324][732]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.07.28-10.42.03:340][732]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.07.28-10.42.03:340][732]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.07.28-10.42.03:340][732]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.07.28-10.42.03:340][732]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.07.28-10.42.03:352][732]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.07.28-10.42.03:352][732]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.07.28-10.42.03:359][732]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.07.28-10.42.03:359][732]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.07.28-10.42.03:359][732]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.07.28-10.42.03:379][732]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.07.28-10.42.03:386][732]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.07.28-10.42.03:386][732]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.07.28-10.42.03:454][732]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.07.28-10.42.03:462][732]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.07.28-10.42.03:477][732]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.07.28-10.42.03:477][732]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.07.28-10.42.03:486][732]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.07.28-10.42.03:540][732]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.07.28-10.42.03:564][732]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.07.28-10.42.03:564][732]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.07.28-10.42.03:617][732]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.07.28-10.42.03:617][732]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.07.28-10.42.03:620][732]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.07.28-10.42.03:620][732]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.07.28-10.42.03:620][732]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.07.28-10.42.03:620][732]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.07.28-10.42.03:620][732]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.07.28-10.42.03:621][732]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.07.28-10.42.03:621][732]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.07.28-10.42.03:641][732]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.07.28-10.42.03:650][732]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.07.28-10.42.03:650][732]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.07.28-10.42.03:678][732]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.07.28-10.42.03:692][732]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.07.28-10.42.03:693][732]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.07.28-10.42.03:719][732]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.07.28-10.42.03:719][732]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.07.28-10.42.03:734][732]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.07.28-10.42.03:763][732]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.07.28-10.42.03:917][732]LogDerivedDataCache: Shutdown
+[2018.07.28-10.42.03:917][732]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.07.28-10.42.03:918][732]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.07.28-10.42.03:924][732]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.07.28-10.42.03:930][732]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.07.28-10.42.03:938][732]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.07.28-10.42.03:944][732]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.07.28-10.42.03:986][732]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.07.28-10.42.03:987][732]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.07.28-10.42.03:987][732]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.07.28-10.42.03:987][732]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.07.28-10.42.04:004][732]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.07.28-10.42.04:005][732]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.07.28-10.42.04:005][732]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.07.28-10.42.04:005][732]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.07.28-10.42.04:005][732]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.07.28-10.42.04:005][732]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.07.28-10.42.04:005][732]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.07.28-10.42.04:005][732]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.07.28-10.42.04:006][732]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.07.28-10.42.04:007][732]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.07.28-10.42.04:007][732]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.07.28-10.42.04:007][732]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.07.28-10.42.04:007][732]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.07.28-10.42.04:007][732]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.07.28-10.42.04:007][732]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.07.28-10.42.04:007][732]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.07.28-10.42.04:007][732]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.07.28-10.42.04:007][732]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.07.28-10.42.04:008][732]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.07.28-10.42.04:008][732]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.07.28-10.42.04:008][732]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.07.28-10.42.04:008][732]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.07.28-10.42.04:008][732]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.07.28-10.42.04:008][732]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.07.28-10.42.04:016][732]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.07.28-10.42.04:016][732]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.07.28-10.42.04:016][732]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.07.28-10.42.04:016][732]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.07.28-10.42.04:016][732]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.07.28-10.42.04:043][732]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.07.28-10.42.04:057][732]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.07.28-10.42.04:057][732]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.07.28-10.42.04:066][732]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA56A34E6-476D-4930-C730-1DB17789F548%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=3667d3954db9ff1029ae6d858f311a1d%7C64f3892a240c439e87cf79da3f9375cc%7C887ef22b-3e2e-448c-b9e9-765c374068be&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.07.28-10.42.04:077][732]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.07.28-10.42.04:096][732]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.07.28-10.42.04:102][732]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.07.28-10.42.04:103][732]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.07.28-10.42.04:115][732]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.07.28-10.42.04:115][732]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.07.28-10.42.04:115][732]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.07.28-10.42.04:115][732]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.07.28-10.42.04:178][732]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.07.28-10.42.04:199][732]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.07.28-10.42.04:199][732]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.07.28-10.42.04:209][732]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.07.28-10.42.04:209][732]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.07.28-10.42.04:209][732]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.07.28-10.42.04:209][732]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.07.28-10.42.04:219][732]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.07.28-10.42.04:219][732]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.28-10.42.04:233][732]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.28-10.42.04:242][732]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.28-10.42.04:312][732]LogExit: Exiting.
+[2018.07.28-10.42.04:339][732]Log file closed, 07/28/18 19:42:04
